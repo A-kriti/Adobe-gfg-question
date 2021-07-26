@@ -1,4 +1,4 @@
-//Ques link - https://practice.geeksforgeeks.org/problems/binary-number-to-decimal-number3525/1
+//Ques link - https://www.geeksforgeeks.org/program-binary-decimal-conversion/
 
 
 class Solution

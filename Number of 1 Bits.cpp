@@ -1,4 +1,5 @@
-//Ques link - https://practice.geeksforgeeks.org/problems/set-bits0143/1
+//Ques link - https://www.geeksforgeeks.org/program-binary-decimal-conversion/
+
 
 
 class Solution {

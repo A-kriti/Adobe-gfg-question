@@ -1,4 +1,4 @@
-//Ques link - https://www.geeksforgeeks.org/program-binary-decimal-conversion/
+//Ques link - https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
 
 
 

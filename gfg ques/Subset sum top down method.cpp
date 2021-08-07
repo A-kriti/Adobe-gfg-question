@@ -48,3 +48,6 @@ public:
      return t[N][sum]; 
     }
 };
+
+
+// O(n*sum)

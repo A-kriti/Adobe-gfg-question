@@ -26,7 +26,7 @@ int main(){
     int n=50;
     int c0=0;
     int c1=0;
-    for(int i=0;i<50;i++){
+    for(int i=0;i<n;i++){
     
         cout<<rand75()<<" ";
         if(rand75()==0){

@@ -18,7 +18,6 @@ class Solution {
 
               }
               N=N/2;
-
           }
           return c;
       }

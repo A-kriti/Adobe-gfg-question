@@ -1,5 +1,6 @@
 // ques - https://practice.geeksforgeeks.org/problems/convert-array-into-zig-zag-fashion1638/1#
 
+
 class Solution{
 public:	
 	// Program for zig-zag conversion of array

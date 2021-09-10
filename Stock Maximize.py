@@ -3,10 +3,9 @@
 def stockmax(prices):
     # Write your code here
     
-      
-    ind_max = prices.index(max(prices))
-    inv = sum(prices[:ind_max])
-    pf = len(prices[:ind_max])*prices[ind_max] - inv
-    if len(prices[ind_max+1:]) > 0:
-        pf += stockmax(prices[ind_max+1:])
-    return p
+    max_index=prices.index(max(prices))
+    x=sum(prices[:max_index])
+    y=len(prices[:max_index])*prices[max_index]-x
+    if len(prices[max_index+1:])>0:
+        y+=stockmax(prices[max_index+1:])
+    return y

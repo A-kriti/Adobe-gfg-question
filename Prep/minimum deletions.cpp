@@ -1,10 +1,12 @@
 // minimum deletions count required in a sequence to make it a good sequence 
 
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
-int min_deletion(vector<int>v){
+int min_deletion(vector<int>v,int x){
     
     int n=v.size();
     
@@ -20,8 +22,8 @@ int min_deletion(vector<int>v){
     
     
     for (auto i : m){
-        if(i.second%2!=0){
-             c++;
+        if(i.second%x!=0){
+             c=c+i.second%x;
          }
     }
     
@@ -31,10 +33,10 @@ int min_deletion(vector<int>v){
 int main()
 {
     vector<int>v1={1,1,2,2,2,2,4,4};
-    vector<int>v2={1,1,3,3,3,4,6};
-    
-    cout<<min_deletion(v1)<<" ";
-    cout<<min_deletion(v2)<<" ";
+    //vector<int>v2={1,1,3,3,3,4,6};
+    int x=4;
+    cout<<min_deletion(v1,x)<<" ";
+    //cout<<min_deletion(v2)<<" ";
 
     return 0;
 }
